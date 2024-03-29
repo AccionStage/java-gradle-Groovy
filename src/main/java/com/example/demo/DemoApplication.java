@@ -1,11 +1,13 @@
-package com.crunchify;
-/**
- * @author Crunchify.com
- */
-import org.apache.log4j.Logger;
-public class Log4JCrunchifyTest {
-    static Logger log = Logger.getLogger(Log4JCrunchifyTest.class);
-    public static void main(String[] args) {
-        log.info("This is Logger Info");
-    }
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
 }
