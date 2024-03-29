@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.*;
 
 public class command_injection{ 
-public static void main(String[] args){ 
+public static Accion(String[] args){ 
 Scanner sc=new Scanner(System.in); 
 System.out.println("Enter Username"); 
 String user = sc.nextLine();
